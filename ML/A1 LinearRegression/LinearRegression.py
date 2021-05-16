@@ -9,8 +9,8 @@ y = dataset.iloc[:, 1].values
 print(X)
 print(y)
 
-from sklearn.linear_model import LinearRegression as ReshatmakPratirodh
-regressor = ReshatmakPratirodh()
+from sklearn.linear_model import LinearRegression as ReshatmakPratigaman
+regressor = ReshatmakPratigaman()
 regressor.fit(X, y)
 print("Accuracy : ", regressor.score(X, y) * 100)
 
