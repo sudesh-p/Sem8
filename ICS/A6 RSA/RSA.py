@@ -41,5 +41,5 @@ for j in range(len(l)):
 
 
 print("Plain Text",pt)
-print("Cifer Text",l)
+print("Cipher Text",l)
 print("Original Text",s1)
