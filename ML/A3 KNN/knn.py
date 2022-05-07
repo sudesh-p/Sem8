@@ -12,12 +12,12 @@ classifier.fit(X,y)
 
 X_test = np.array([6,6])
 y_pred = classifier.predict([X_test])
-print('General KNN: ', y_pred)
+print('Output for General KNN: ', y_pred)
 
 classifier = KNC(n_neighbors = 3, weights = 'distance')
 classifier.fit(X,y)
 
 X_test = np.array([6,6])
 y_pred = classifier.predict([X_test])
-print('General KNN: ', y_pred)
+print('Output for Weighted KNN: ', y_pred)
 
